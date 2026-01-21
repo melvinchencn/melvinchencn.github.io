@@ -120,3 +120,31 @@ hr{
   .avatar{ width: 132px; }
   .title h1{ font-size: 34px; }
 }
+
+/* Teaching lists */
+.clean{
+  list-style:none;
+  padding:0;
+  margin: 8px 0 0;
+}
+.clean li{
+  padding: 7px 0;
+  border-bottom: 1px solid var(--border);
+}
+.clean li:last-child{
+  border-bottom: 0;
+}
+.course{
+  font-weight: 600;
+}
+.sep{
+  color: var(--muted);
+  margin: 0 6px;
+}
+.sem{
+  color: var(--muted);
+}
+.teach-block{
+  margin: 2px 0 0;
+}
+
