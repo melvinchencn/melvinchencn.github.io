@@ -8,4 +8,9 @@ Rutgers University
 ---
 
 [Research](research.md)  
+[Teaching](teaching.md)  
 [Curriculum Vitae](cv.pdf)
+
+---
+
+Email: mc2419@rutgers.edu
