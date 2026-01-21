@@ -20,6 +20,15 @@
 
 ## Teaching Assistant, Rutgers University
 
+### Ph.D. Courses
+
+- Econometrics I  
+  Spring 2025; Spring 2026
+
+- Macroeconomic Theory II  
+  Spring 2024
+
+
 ### Undergraduate Courses
 
 - Introduction to Microeconomics  
@@ -37,13 +46,6 @@
 - Econometrics      
   Spring 2025
 
-### Ph.D. Courses
-
-- Econometrics I  
-  Spring 2025; Spring 2026
-
-- Macroeconomic Theory II  
-  Spring 2024
 
 
 
