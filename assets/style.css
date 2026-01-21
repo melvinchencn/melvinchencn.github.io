@@ -50,14 +50,37 @@ h3{
 
 .small{ color: var(--muted); font-size: 15px; }
 
+/* Top nav (traditional econ style) */
 .navline{
-  margin: 10px 0 0;
-  font-size: 17px;
+  margin: 10px 0 18px;
+  font-weight: 600;          /* 整行加粗 */
+  font-size: 16.5px;         /* 略小一点更“网页” */
+  line-height: 1.35;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .navline a{
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
+  text-decoration: none;                 /* 去掉默认下划线 */
+  border-bottom: 1px solid transparent;  /* 用细线替代 */
+  padding-bottom: 2px;
+}
+
+.navline a:hover{
+  border-bottom-color: rgba(0,0,0,.35);
+}
+
+/* 当前页面高亮（可选但非常美观） */
+.navline a.active{
+  border-bottom-color: rgba(0,0,0,.55);
+}
+
+/* 分隔符更淡、更松弛 */
+.navline .sep{
+  font-weight: 400;     /* 分隔符不跟着加粗 */
+  opacity: .55;
+  margin: 0 10px;
 }
 
 .navline a:hover{
