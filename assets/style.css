@@ -13,26 +13,4 @@
     .wrap { flex-direction:column-reverse; }
     .photo { width: 140px; }
   }
-</style>
 
-<div class="wrap">
-  <div class="left">
-    <h1 class="name">Mengjun Chen</h1>
-    <p class="meta">Ph.D. Candidate in Economics, Rutgers University</p>
-
-    <p class="ri"><strong>Research interests:</strong> Macroeconomic forecasting; monetary policy; machine/deep learning for time series; structural macroeconometrics.</p>
-
-    <div class="nav">
-      <a class="btn" href="research.md">Research</a>
-      <a class="btn" href="teaching.md">Teaching</a>
-      <a class="btn" href="cv.pdf">CV (PDF)</a>
-      <a class="btn" href="https://github.com/melvinchencn">GitHub</a>
-    </div>
-
-    <p class="contact"><strong>Contact:</strong> <a href="mailto:mc2419@rutgers.edu">mc2419@rutgers.edu</a></p>
-  </div>
-
-  <div>
-    <img class="photo" src="photo.jpg" alt="Mengjun Chen" />
-  </div>
-</div>
