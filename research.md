@@ -3,9 +3,12 @@
 ## Work in Progress
 
 
-**Dynamic Macroeconomic Forecasting with Supervised Autoencoders and Uncertainty-Gated LSTMs**  
+**Dynamic Macroeconomic Forecasting with Supervised Autoencoders and Uncertainty-Gated LSTMs**    [PDF](chen_imported_inflation_dsge.pdf)
+
+
 
 This project develops a forecasting pipeline for high-dimensional macro panels that learns predictive factors and models their nonlinear dynamics in real time. I use supervised autoencoders to extract low-dimensional representations optimized for forecasting target variables, and an uncertainty-gated LSTM to adapt factor dynamics across regimes. The framework is evaluated on real-time vintages (e.g., FRED-MD-style panels) and benchmarked against standard linear and factor-based approaches. Results indicate improved accuracy—especially at turning points and over multi-step horizons—and provide a structured uncertainty decomposition into **factor-innovation uncertainty** and **factor-extraction error**.
+
 
 ---
 
