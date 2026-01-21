@@ -34,7 +34,7 @@
 - Money, Banking, and Finance  
   Spring 2025
 
-- Econometrics 
+- Econometrics      
   Spring 2025
 
 ### Ph.D. Courses
