@@ -43,8 +43,7 @@
 - Money, Banking, and Finance  
   Spring 2025
 
-- Econometrics      
-  Spring 2025
+
 
 
 
