@@ -1,17 +1,19 @@
 # Research
 
-## Working Papers
+## Work in Progress
 
-**Structural Estimation of Inflation Channel Heterogeneity: Imported Inputs vs Final Goods**  
-*Working Paper*
+**Structural Estimation of Inflation Channel Heterogeneity: Imported Inputs vs Final Goods**
 
-[Short abstract to be added]
+[To be added]
 
 ---
 
-## Work in Progress
+**Dynamic Macroeconomic Forecasting with Supervised Autoencoders and Uncertainty-Gated LSTMs**
 
-**Dynamic Macroeconomic Forecasting with Supervised Autoencoders and Uncertainty-Gated LSTMs**  
-*Work in Progress*
+[To be added]
 
-[Short abstract to be added]
+---
+
+**Measuring Factor-Based Uncertainty in Real-Time Data**
+
+[To be added]
