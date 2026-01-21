@@ -1,0 +1,38 @@
+
+  .wrap { display:flex; align-items:flex-start; justify-content:space-between; gap:28px; margin-top:8px; }
+  .left { flex: 1; min-width: 240px; }
+  .photo { width: 160px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+  .name { margin: 0 0 6px 0; }
+  .meta { margin: 0 0 10px 0; }
+  .ri { margin: 12px 0 14px 0; }
+  .nav { margin: 14px 0 10px 0; display:flex; flex-wrap:wrap; gap:10px; }
+  .btn { display:inline-block; padding:7px 11px; border:1px solid rgba(0,0,0,0.15); border-radius:10px; text-decoration:none; }
+  .btn:hover { border-color: rgba(0,0,0,0.30); }
+  .contact { margin-top: 16px; }
+  @media (max-width: 700px) {
+    .wrap { flex-direction:column-reverse; }
+    .photo { width: 140px; }
+  }
+</style>
+
+<div class="wrap">
+  <div class="left">
+    <h1 class="name">Mengjun Chen</h1>
+    <p class="meta">Ph.D. Candidate in Economics, Rutgers University</p>
+
+    <p class="ri"><strong>Research interests:</strong> Macroeconomic forecasting; monetary policy; machine/deep learning for time series; structural macroeconometrics.</p>
+
+    <div class="nav">
+      <a class="btn" href="research.md">Research</a>
+      <a class="btn" href="teaching.md">Teaching</a>
+      <a class="btn" href="cv.pdf">CV (PDF)</a>
+      <a class="btn" href="https://github.com/melvinchencn">GitHub</a>
+    </div>
+
+    <p class="contact"><strong>Contact:</strong> <a href="mailto:mc2419@rutgers.edu">mc2419@rutgers.edu</a></p>
+  </div>
+
+  <div>
+    <img class="photo" src="photo.jpg" alt="Mengjun Chen" />
+  </div>
+</div>
