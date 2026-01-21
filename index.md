@@ -1,23 +1,35 @@
-<link rel="stylesheet" href="assets/style.css">
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mengjun Chen</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <main class="container">
+    <div class="header">
+      <div class="title">
+        <h1>Mengjun Chen</h1>
+        <p class="subtitle">Ph.D. Candidate in Economics, Rutgers University</p>
+        <p class="meta"><strong>Research interests:</strong> Macroeconomic forecasting; monetary policy; machine/deep learning for time series; structural macroeconometrics.</p>
 
+        <div class="nav">
+          <a class="pill" href="research.html">Research</a>
+          <a class="pill" href="teaching.html">Teaching</a>
+          <a class="pill" href="cv.pdf">CV (PDF)</a>
+          <a class="pill" href="https://github.com/melvinchencn">GitHub</a>
+        </div>
 
+        <p class="small"><strong>Contact:</strong> <a href="mailto:mc2419@rutgers.edu">mc2419@rutgers.edu</a></p>
+      </div>
 
+      <img class="avatar" src="photo.jpg" alt="Mengjun Chen" />
+    </div>
 
-<img src="photo.jpg" alt="Mengjun Chen" width="160" style="float:right; margin: 0 0 12px 18px; border-radius: 8px;" />
+    <hr />
 
-# Mengjun Chen
-
-Ph.D. Candidate in Economics, Rutgers University
-
-**Research interests:** Macroeconomic forecasting; monetary policy; machine/deep learning for time series; structural macroeconometrics.
-
----
-
-[Research](research.md)  
-[Teaching](teaching.md)  
-[Curriculum Vitae](cv.pdf)  
-[GitHub](https://github.com/melvinchencn)
-
----
-
-**Contact:** mc2419@rutgers.edu
+    <p class="small">Last updated: January 2026</p>
+  </main>
+</body>
+</html>
