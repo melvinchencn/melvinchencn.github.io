@@ -1,50 +1,48 @@
-# Teaching
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Teaching | Mengjun Chen</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <main class="container">
+    <div class="nav">
+      <a class="pill" href="index.html">Home</a>
+      <a class="pill" href="research.html">Research</a>
+      <a class="pill" href="teaching.html">Teaching</a>
+      <a class="pill" href="cv.pdf">CV (PDF)</a>
+    </div>
 
-## Instructor of Record
+    <h2 class="section-title">Teaching</h2>
 
-- Intermediate Macroeconomic Analysis (Econ 321)  
-  Summer 2025  
+    <div class="card">
+      <h3>Teaching Assistant, Rutgers University</h3>
+      <p class="small"><strong>Undergraduate courses</strong></p>
+      <p>Introduction to Microeconomics — Spring 2023; Fall 2023; Spring 2025</p>
+      <p>Introduction to Macroeconomics — Spring 2025</p>
+      <p>Intermediate Macroeconomic Analysis — Fall 2022; Spring 2023; Spring 2024</p>
+      <p>Money, Banking, and Finance — Spring 2025</p>
+      <p>Econometrics (Undergraduate) — Spring 2025</p>
 
-  *Student comment:*  
-  *“He’s very involved with the students during class and thoroughly answers questions, explaining concepts in multiple ways to ensure that students with different learning styles understand. Even outside of class, he is quick to respond to emails and always provides thorough assistance and feedback.”*  
-  Overall evaluation: **4.83 / 5.00**
+      <p class="small" style="margin-top:14px;"><strong>Ph.D. courses</strong></p>
+      <p>Macroeconomic Theory II — Spring 2024</p>
+      <p>Econometrics I — Spring 2025; Spring 2026</p>
+    </div>
 
-- Intermediate Macroeconomic Analysis (Econ 321)  
-  Summer 2024  
+    <div class="card">
+      <h3>Instructor of Record</h3>
+      <p>Intermediate Macroeconomic Analysis (Econ 321) — Summer 2025</p>
+      <p class="quote"><span class="small">Student comment:</span> “…”</p>
+      <p class="small">Overall evaluation: 4.83 / 5.00</p>
 
-  *Student comment:*  
-  *“I liked the presentation option and how the homework assignments were structured.”*  
-  Overall evaluation: **4.43 / 5.00**
+      <hr />
 
-
-
-## Teaching Assistant, Rutgers University
-
-### Ph.D. Courses
-
-- Econometrics I  
-  Spring 2025; Spring 2026
-
-- Macroeconomic Theory II  
-  Spring 2024
-
-
-### Undergraduate Courses
-
-- Introduction to Microeconomics  
-  Spring 2023; Fall 2023; Spring 2025
-
-- Introduction to Macroeconomics  
-  Spring 2025
-
-- Intermediate Macroeconomic Analysis  
-  Fall 2022; Spring 2023; Spring 2024
-
-- Money, Banking, and Finance  
-  Spring 2025
-
-
-
-
-
-
+      <p>Intermediate Macroeconomic Analysis (Econ 321) — Summer 2024</p>
+      <p class="quote"><span class="small">Student comment:</span> “…”</p>
+      <p class="small">Overall evaluation: 4.43 / 5.00</p>
+    </div>
+  </main>
+</body>
+</html>
