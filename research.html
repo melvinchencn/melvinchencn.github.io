@@ -23,31 +23,55 @@
         This project studies how imported inflation transmits into domestic inflation through distinct channels associated with imported intermediate inputs versus imported final consumption goods. I develop and estimate a medium-scale New Keynesian DSGE model with a two-tier import structure, endogenous wage bargaining, labor market frictions, and nominal rigidities. The framework separates a supply-side marginal-cost channel from a demand-side expenditure-basket channel. Estimation using U.S. macroeconomic and trade data shows that intermediate-input inflation shocks generate more persistent domestic inflation via production costs and wage–price feedback, while final-goods shocks primarily reweight the consumption basket with shorter-lived inflation effects. The results highlight why import composition matters for monetary policy design during supply-chain disruptions and trade-policy shifts.
       </p>
       <div class="paper-links">
-       <a href="chen_imported_inflation_dsge.pdf">PDF</a>
+       <a href="chen_imported_inflation_dsge.pdf">PDF</a><span class="sep">|</span>
       </div>
     </div>
 
     <hr />
 
     <div class="paper">
-      <h3>Dynamic Macroeconomic Forecasting with Supervised Autoencoders and Uncertainty-Gated LSTMs</h3>
+      <h3>Nonlinear Factor Dynamics Forecasting:
+A Two-Stage Autoencoder–LSTM Framework</h3>
       <p>
-        This project develops a forecasting pipeline for high-dimensional macro panels that learns predictive factors and models their nonlinear dynamics in real time. I use supervised autoencoders to extract low-dimensional representations optimized for forecasting target variables, and an uncertainty-gated LSTM to adapt factor dynamics across regimes. The framework is evaluated on real-time vintages (e.g., FRED-MD-style panels) and benchmarked against standard linear and factor-based approaches. Results indicate improved accuracy—especially at turning points and over multi-step horizons—and provide a structured uncertainty decomposition into factor-innovation uncertainty and factor-extraction error.
+      We study forecasting in high-dimensional time series with nonlinear factor dynam-
+ics. When the evolution of latent factors is nonlinear, traditional direct forecasting
+methods suffer from structural misspecification, leading to systematic errors. Building
+on recent advances in deep learning, we propose AE–LSTM, a two-stage framework
+that first extracts latent factors with an autoencoder (AE) and then models their
+dynamics using a long short-term memory (LSTM) network. The autoencoder consis-
+tently recovers nonlinear structures, while the LSTM flexibly approximates dynamic
+transitions, allowing the system to capture both cross-sectional and temporal nonlin-
+earities. Simulation studies and an application to FRED-MD real-time vintages show
+that AE–LSTM achieves systematic gains in predictive accuracy over standard lin-
+ear and regularized benchmarks, underscoring the value of separating representation
+learning from dynamic forecasting.
       </p>
       <div class="paper-links">
-        <span>PDF · Slides · Code</span>
+      <a href="chen_supervised_ae_ug_lstm.pdf">PDF</a><span class="sep">|</span>
       </div>
     </div>
 
     <hr />
 
     <div class="paper">
-      <h3>Measuring Factor-Based Uncertainty in Real-Time Data</h3>
+      <h3>Data-Revision Wedges in Real-Time Uncertainty Indices</h3>
       <p>
-        This project studies how macro-uncertainty measurement changes when the information set is restricted to real-time releases rather than fully revised data. I construct a factor-based uncertainty index that explicitly accounts for real-time data revisions and factor proxy errors, and provide a theoretical decomposition that clarifies the sources of measured uncertainty. The analysis distinguishes uncertainty from shocks to latent factor innovations versus uncertainty induced by factor extraction and real-time measurement error. Empirically, the proposed index is compared to existing uncertainty measures and evaluated via forecasting and real-time performance diagnostics, highlighting when real-time implementation meaningfully alters inference and predictive content.
+        We study real-time measurement of macroeconomic uncertainty when
+the underlying data are revised. In a vintage-data factor forecasting en-
+vironment, a conventional real-time y-based uncertainty index admits a
+data-revision wedge, so y-based uncertainty computed from vintages can
+be mechanically inflated relative to its final-data benchmark. Motivated
+by this wedge, we propose a real-time factor-based index that targets the
+factor-innovation component directly and show that its benchmark gap
+is free of revision-driven terms. Equivalently, the real-time versus final-
+data gap of the proposed index reflects only information-set differences
+in factor-innovation uncertainty, whereas the corresponding gap of the
+y-based index includes the data-revision wedge. The results deliver sim-
+ple diagnostics that quantify benchmark recovery and revision-induced
+inflation in real-time uncertainty indices.
       </p>
       <div class="paper-links">
-        <span>PDF · Slides · Code</span>
+        <a href="chen_realtime_factor_uncertainty.pdf">PDF</a><span class="sep">|</span>
       </div>
     </div>
 
