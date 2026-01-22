@@ -90,7 +90,7 @@ h3{
 .sep{ font-weight: 600;  color: var(--muted); margin: 0 8px; }
 
 .avatar{
-  width: 180px;
+  width: 300px;
   float: right;
   margin: 6px 0 12px 18px;
   border-radius: 6px;
